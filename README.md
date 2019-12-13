@@ -1,2 +1,1 @@
-# Coroutines-Demo
-实际的Android项目中使用Kotlin协程的正确知识
+## 博客[https://blog.csdn.net/NJP_NJP/article/details/103524778](https://blog.csdn.net/NJP_NJP/article/details/103524778)中的Demo项目
