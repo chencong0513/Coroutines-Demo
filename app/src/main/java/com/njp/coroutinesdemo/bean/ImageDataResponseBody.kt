@@ -1,4 +1,4 @@
-package com.njp.coroutinesdemo
+package com.njp.coroutinesdemo.bean
 
 data class ImageDataResponseBody(
     val code: String,

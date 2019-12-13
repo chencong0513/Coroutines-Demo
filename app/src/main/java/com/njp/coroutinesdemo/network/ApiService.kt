@@ -1,5 +1,6 @@
-package com.njp.coroutinesdemo
+package com.njp.coroutinesdemo.network
 
+import com.njp.coroutinesdemo.bean.ImageDataResponseBody
 import retrofit2.http.GET
 import retrofit2.http.Query
 

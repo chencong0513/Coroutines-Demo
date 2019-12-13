@@ -1,7 +1,10 @@
-package com.njp.coroutinesdemo
+package com.njp.coroutinesdemo.ui
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.njp.coroutinesdemo.bean.LoadState
+import com.njp.coroutinesdemo.launch
+import com.njp.coroutinesdemo.network.NetworkService
 import kotlinx.coroutines.async
 
 class MainViewModel : ViewModel() {
@@ -26,6 +29,5 @@ class MainViewModel : ViewModel() {
             }
         )
     }
-
 
 }

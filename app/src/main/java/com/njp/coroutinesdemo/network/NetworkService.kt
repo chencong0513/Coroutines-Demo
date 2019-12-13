@@ -1,4 +1,4 @@
-package com.njp.coroutinesdemo
+package com.njp.coroutinesdemo.network
 
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
