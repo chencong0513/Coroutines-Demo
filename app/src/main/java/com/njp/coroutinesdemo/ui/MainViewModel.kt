@@ -26,6 +26,7 @@ class MainViewModel : ViewModel() {
                 loadState.value = LoadState.Success()
             },
             {
+                Log.i("CHENC", "error:" + it.message)
                 loadState.value = LoadState.Fail(it.message ?: "加载失败")
             },
             {
