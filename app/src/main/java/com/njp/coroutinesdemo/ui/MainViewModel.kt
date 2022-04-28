@@ -1,5 +1,6 @@
 package com.njp.coroutinesdemo.ui
 
+import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.njp.coroutinesdemo.bean.LoadState
@@ -26,6 +27,9 @@ class MainViewModel : ViewModel() {
             },
             {
                 loadState.value = LoadState.Fail(it.message ?: "加载失败")
+            },
+            {
+                Log.i("CHENC", "SUCCESS")
             }
         )
     }
